@@ -7,6 +7,18 @@ years: [2023, 2022, 2021, 2020, 2019, 2018, 2016, 2015, 2014]
 nav: true
 nav_order: 4
 ---
+
+I do not think that the impact of one's research, based on publications, can be captured in one or a handful number of parameters.
+However, if you must know, my **h-index** is 15 (according to [Google Scholar]({{ site.scholar_url }}) and [ADS]({{ site.ads_url }}) and I have been cited over 1023 times.
+Three of my papers have over 100 citations and seven over 50.
+
+
+A lot of my research is collaborative in nature due to the complexity of the projects.
+A complete list of my publications is below and could also be accessed from any of the links below.
+All of my papers are available for free on [arXiv][arxiv_url], which match the published versions.
+
+[arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
