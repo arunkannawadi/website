@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Arun Kannawadi
-    # - name: Languages
-    #   value: English, German
+    - name: Languages
+      value: English, Tamil, Sourashtra, Hindi
 
 - title: Education
   type: time_table
