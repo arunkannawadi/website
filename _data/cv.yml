@@ -13,12 +13,8 @@
       institution: Carnegie Mellon University, Pittsburgh, USA
       year: 2016
       description:
-        - title: Thesis
-          contents:
-            Systematic effects in realistic image simulations for future Weak Lensing surveys
-        - title: Advisor
-          contents:
-            [Prof. Rachel Mandelbaum](https://andrew.cmu.edu/user/rmandelb)
+        - "Thesis: Systematic effects in realistic image simulations for future Weak Lensing surveys"
+        - Advised by [Prof. Rachel Mandelbaum](https://andrew.cmu.edu/user/rmandelb)
     - title: Masters in Physics
       institution: Carnegie Mellon University, Pittsburgh, USA
       year: 2013
