@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Metacalibration
+description: for Euclid & Roman
+img: assets/img/metacal_Q.png
+date:   2021-06-13 17:40:57 -0400
 importance: 1
 category: work
+permalink: /projects/metacalibration-for-Euclid/
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The complexity and the realism in the image simulations must be increase to calibrate shear as the lensing surveys get better and the precision in our results improve. Metacalibration is a new player in the field which attempts to solve this problem by calibrating shear from the observed image itself. However, this relies on the images being Nyquist sampled. By design, space-based surveys such as Euclid and WFIRST are not Nyquist-sampled.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<figure>
+<img src="{{ site.base_url}}/images/../../../images/metacal_Q.png" width="30%" align="right">
+</figure>
+We attempted to quantify the impact on shear biases for Euclid if we were to use this approach on the individual exposures. We see clear evidence of biases in galaxy shapes that depend on the size, ellipticity and the orientation of the galaxies! Our preliminary analysis suggests that the bias misestimation can be as hugh as 5% making metacalibration not a viable option for these space-based missions. We are working on getting this paper to its final form. Accurate shear measurement for these missions is going to be challenging task!
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+In order to circumvent this problem, and to mitigate the issue of introducing a shear-dependent noise correlation, I am developing an alternative approach to metacalibration. In contrast to the original, _active_ metacalibration where the observed data is altered, my approach is _passive_ involving the manipulation of the filter functions (weight functions) used to extract shear from galaxy images.
+<div align="right">[<a href="index.html#projectlist">back</a>]</div>
+Papers that have come out of this project:
+<ol reversed>
+<li><a href="https://ui.adsabs.harvard.edu/abs/2020arXiv201004164K/abstract">Mitigating the effects of undersampling in weak lensing shear estimation with metacalibration</a><br>
+<b>A. Kannawadi</b>, E. Rosenberg, H. Hoekstra, arXiv:2010:04164</li>
+<li><a href="https://ui.adsabs.harvard.edu/abs/2020arXiv201004178H/abstract">Accounting for object detection bias in weak gravitational lensing studies</a><br>
+H. Hoekstra, <b>A. Kannawadi</b>, T. D. Kitching, arXiv:2010:04178</li>
+</ol>
+<hr>
