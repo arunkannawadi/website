@@ -12,7 +12,7 @@ permalink: /projects/metacalibration-for-Euclid/
 The complexity and the realism in the image simulations must be increase to calibrate shear as the lensing surveys get better and the precision in our results improve. Metacalibration is a new player in the field which attempts to solve this problem by calibrating shear from the observed image itself. However, this relies on the images being Nyquist sampled. By design, space-based surveys such as Euclid and WFIRST are not Nyquist-sampled.
 
 <figure>
-<img src="{{ site.base_url}}/images/../../../images/metacal_Q.png" width="30%" align="right">
+<img src="{{ site.base_url}}/assets/img/metacal_Q.png" width="30%" align="right">
 </figure>
 We attempted to quantify the impact on shear biases for Euclid if we were to use this approach on the individual exposures. We see clear evidence of biases in galaxy shapes that depend on the size, ellipticity and the orientation of the galaxies! Our preliminary analysis suggests that the bias misestimation can be as hugh as 5% making metacalibration not a viable option for these space-based missions. We are working on getting this paper to its final form. Accurate shear measurement for these missions is going to be challenging task!
 
