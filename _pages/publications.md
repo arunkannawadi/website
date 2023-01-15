@@ -20,21 +20,39 @@ Three of my papers have over 200 citations and twelve over 50.
 
 [arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
 
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<section id="firstauthor">
-<h1>First or second author papers</h1>
-
-{% bibliography -f papers -q @*[custom_keywords=first]* %}
+<section id="white">
+<h1>White papers I contributed to</h1>
 </section>
 
-<section id="coauthor">
-<h1>Co-authored papers</h1>
+{% bibliography -f papers -q @*[custom_keywords=white]* %}
+
+<section id="firstauthor">
+<h1>First or second author papers</h1>
+{%- for y in page.years %}
+  {% bibliography -f papers -q @*[year={{y}} && custom_keywords=first]* %}
+{% endfor %}
+</section>
+
+<section id="coauthor-major">
+<h1>Co-authored papers with significant contribution</h1>
+</section>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}} && custom_keywords!=first]* %}
+  {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
 {% endfor %}
+
+<section id="coauthor-infra">
+<h1>Co-authored papers with minor or infrastructure contributions</h1>
 </section>
+
+{%- for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}} && custom_keywords!=major && custom_keywords!=first && custom_keywords!=white]* %}
+{% endfor %}
+
 </div>
