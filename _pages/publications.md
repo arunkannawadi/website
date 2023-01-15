@@ -26,7 +26,7 @@ Three of my papers have over 200 citations and twelve over 50.
 <section id="firstauthor">
 <h1>First or second author papers</h1>
 
-{% bibliography -f papers -q @*[topauthor=true]* %}
+{% bibliography -f papers -q @*[custom_keywords=first]* %}
 </section>
 
 <section id="coauthor">
@@ -34,7 +34,7 @@ Three of my papers have over 200 citations and twelve over 50.
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}, topauthor=true]* %}
+  {% bibliography -f papers -q @*[year={{y}} && custom_keywords!=first]* %}
 {% endfor %}
 </section>
 </div>
