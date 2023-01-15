@@ -63,6 +63,13 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Publications
+# -----------------------------------------------------------------------------
+
+scholar_url: https://scholar.google.com/citations?user=QoX9bu8AAAAJ&hl=en
+ads_url: https://ui.adsabs.harvard.edu/search/p_=0&q=kannawadi
+
+# -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
