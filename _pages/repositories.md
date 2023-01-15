@@ -4,7 +4,7 @@ permalink: /codes/
 title: Codes
 description: I write a lot of code as a research in astrophysics. Almost all of them are open source and available on GitHub.
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 ## GitHub users
