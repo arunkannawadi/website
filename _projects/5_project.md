@@ -2,7 +2,7 @@
 layout: page
 title: Mass mapping
 description:
-img: assets/img/massmapping.jpg
+img: assets/img/massmap2.jpg
 importance: 3
 category: work
 permalink: /projects/massmapping/
