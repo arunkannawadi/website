@@ -2,7 +2,7 @@
 layout: page
 title: Cosmic variance
 description: in weak gravitational lensing
-img: assets/img/cosmic_variance.png
+img: assets/img/cosmicvariance.png
 importance: 3
 category: work
 permalink: /projects/cosmic_variance/

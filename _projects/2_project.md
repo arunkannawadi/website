@@ -2,11 +2,11 @@
 layout: page
 title: Cosmic shear
 description: Shear calibration and parameter inference
-date:   2021-06-13 17:40:57 -0400
+date: 2021-06-13 17:40:57 -0400
 img: assets/img/sims2.png
 importance: 2
 category: work
-permalink: image-simulations-KiDS
+permalink: /projects/image-simulations-KiDS/
 ---
 
 Galaxy shapes measured from noisy images are noisy and biased, since the shape is a non-linear function of the pixel values. This in turn leads to biased estimates for the weak lensing shear if not corrected for, and is known as noise bias. The precise value of the noise bias depends on the size and the signal-to-noise ratio of the galaxies, and hence are specific to each survey. The magnitude of the noise bias is typically evaluated through image simulations. And because the bias is survey specific, it is critical that the simulations match the data.
