@@ -1,34 +1,25 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+---
+List of coauthors
+---
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Mandelbaum":
+  - firstname: ["Rachel", "R."]
+    url: https://andrew.cmu.edu/user/rmandelb
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Hoekstra":
+  - firstname: ["Henk", "H."]
+  - url: https://home.strw.leidenuniv.nl/~hoekstra/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Hildebrandt":
+  - firstname: ["Hendrik", "H."]
+    url: https://people.astro.ruhr-uni-bochum.de/hendrik/Hendrik_Hildebrandts_Website/Welcome.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Heymans":
+  - firstname: ["Catherine", "C."]
+    url: https://en.wikipedia.org/wiki/Catherine_Heymans
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Asgari":
+  - firstname: ["Marika", "M."]
+    url: https://www.hull.ac.uk/staff-directory/marika-asgari
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
