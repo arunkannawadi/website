@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /codes/
-title: Codes
-description: I write a lot of code as a research in astrophysics. Almost all of them are open source and available on GitHub.
+permalink: /code/
+title: Code
+description: Research in astrophysics involves a lot of coding. Almost all of what I work on are open source and available on GitHub.
 nav: true
 nav_order: 2
 ---

@@ -12,7 +12,7 @@ profile:
   address: >
     Photo by Stephanie Reif
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -24,4 +24,4 @@ My research field is Cosmology, the study of origin and evolution of the Univers
 
 On a day-to-day basis, I work on image processing pipelines and algorithms that work at raw pixel-level data to extract useful information from millions (soon to be billions) of galaxies namely galaxy fluxes (and colors) and shapes.
 
-I obtained my Ph.D. from the [Department of Physics](http://www.cmu.edu/physics) at [Carnegie Mellon University](http://www.cmu.edu) in the [Fall of 2016](https://www.cmu.edu/physics/news-events/news-archive/2016/first_graduate_fall_2016.html).
+I obtained my [Ph.D.](https://www.cmu.edu/physics/news-events/news-archive/2016/first_graduate_fall_2016.html) in [Physics](http://www.cmu.edu/physics) at [Carnegie Mellon University](http://www.cmu.edu) in 2016.

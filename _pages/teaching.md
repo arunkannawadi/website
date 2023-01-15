@@ -10,7 +10,7 @@ nav_order: 5
 ### Research supervision
 
 
-- I supervised Paige Cromley and Xander Jenkins, two undergraduate students at Princeton using the [LSSTC Enabling Science Award](https://www.lsstcorporation.org/node/269)
+- I supervised Paige Cromley and Xander Jenkins, two undergraduate students at Princeton, supported the [LSSTC Enabling Science Award](https://www.lsstcorporation.org/node/269)
 - I supervised Paul Couzy, an MSc student at Leiden Observatory for his Masters Thesis, for the academic year 2018-2019.
   His thesis involved quantifying the contribution to the bias in the shear estimates due to the azimuthal variations in an otherwise smooth galaxy profile.
 - I supervised [Erik Rosenberg](https://www.ast.cam.ac.uk/people/erik.rosenberg), a then undergraduate student from Stanford University, who spent his Summer of 2018 as a part of the LEAPS programme.
@@ -43,7 +43,7 @@ For e.g., in a general relativity course, discussing the metric and curved space
 The history of the development is hardly paid attention to.
 
 One of the key goals of teaching science should be to impart scientific thinking.
-If a student is never going to take a science course again in his/her life, then the take away from the course must be not the details but the generic principles and its justification.
-And I believe it is best done by emphasizing on how the theories we have today came about.
+If a student is never going to take a science course again in his/her life, then the take away from the course must be not the details but the generic principles and its justifications.
+I believe it is best done by emphasizing on how the theories we have today came about.
 It is important to highlight how even a systematic approach to a problem can lead to erroneous conclusions, affected by confirmational bias.
 Thus, while introducing a new theory, I always focus on other simpler, alternative theories that were adopted before the current successful theory and why the scientific community has disregarded the earlier approaches.
