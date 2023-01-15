@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: H4RG detectors
+description: for Roman Space Telescope
+img: assets/img/roman.jpeg
 importance: 3
-category: fun
+category: work
+permalink: /projects/ipc-h4rg-roman/
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Interpixel Capacitance (IPC) refers to the cross-talk between pixels in hybrid-CMOS detectors such as those that will be used in WFIRST mission (now known as the Nancy Grace Roman Space Telescope). IPC being a linear effect, affects both the PSFs and the galaxy images. While measuring the intrinsic galaxy shapes, the effect of PSF is corrected for, which should also correct for most of the effects due to IPC. However, because of the way we define shapes, the cancellation is not exact and some residual effect of IPC remains. In this study, we seek to find if it contributes significantly to the bias in the lensing shear measurements.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Accounting the effects of the point spread function (PSF) of a telescope is one of the most challenging tasks for weak gravitational lensing. Accurate knowledge of the PSF is thus an essential for surveys that attempt to obtain scientific conclusions from weak lensing. Future surveys such as WFIRST have strict PSF requirements in order to achieve their promise. Detector non-idealities downgrade the PSFs from being diffraction limited and introduce some variation in the PSFs. We studied one such detector non-ideality called the Interpixel Capacitance (IPC) in detail. IPC is a form of cross-talk between pixels. The effect of IPC is to broaden the PSF decreasing the effective resolution of the telescope and correlates the noise.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Using the WFIRST module in GalSim, we simulated realistic WFIRST PSFs in the bands that we care for weak lensing. Using our results on these simulated PSFs,we translated the PSF requirements into IPC requirements. Our work forms an important guideline in specifying the detector requirements. This work was done in collaboration with teams at the Jet Propulsion Laboratory, Pasadena and at the Goddard Space Flight Center, Maryland.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Papers that have come out of this project:
+<ol reversed>
+<li> The Impact of Interpixel Capacitance on shear calibration<br>
+<b>A. Kannawadi</b>, R. Mandelbaum, C. A. Shapiro, J. D. Rhodes (in prep.)</li>
+<li> <a href="https://ui.adsabs.harvard.edu/abs/2016PASP..128i5001K/abstract">The Impact of Interpixel Capacitance in CMOS Detectors on PSF shapes and Implications for WFIRST</a><br>
+	<b>A. Kannawadi</b>, C. A. Shapiro, R. Mandelbaum, C. M. Hirata, J. W. Kruk, J. D. Rhodes (2016), PASP 128 (967), 095001. </li>
+<li> <a href="https://ui.adsabs.harvard.edu/abs/2016PASP..128j4001P/abstract">The effect of detector nonlinearity on WFIRST PSF profiles for weak gravitational lensing measurements</a><br>
+A. A. Plazas, C. Shapiro, <b>A. Kannawadi</b>, R. Mandelbaum, J. Rhodes, R. Smith (2016), PASP 128 (968), 104001 </li>
+</ol>
+<hr>

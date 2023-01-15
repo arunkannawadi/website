@@ -5,6 +5,7 @@ description: in weak gravitational lensing
 img: assets/img/cosmic_variance.png
 importance: 3
 category: work
+permalink: /projects/cosmic_variance/
 ---
 
 In this work, we highlight the shortcomings of using a deep narrow sample as a training sample to obtain redshift-dependent shear calibration biases for large surveys.
