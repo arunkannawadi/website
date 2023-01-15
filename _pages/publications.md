@@ -21,11 +21,20 @@ Three of my papers have over 200 citations and twelve over 50.
 [arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
 
 <!-- _pages/publications.md -->
-<div class="publications" id="recent">
+<div class="publications">
+
+<section id="firstauthor">
+<h1>First or second author papers</h1>
+
+{% bibliography -f papers -q @*[topauthor=true]* %}
+</section>
+
+<section id="coauthor">
+<h1>Co-authored papers</h1>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f papers -q @*[year={{y}}, topauthor=true]* %}
 {% endfor %}
-
+</section>
 </div>

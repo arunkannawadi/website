@@ -1,0 +1,21 @@
+---
+yaml file to customize the auto-generated .bib file
+---
+
+"2021MNRAS.502.4048K":
+  selected: true
+  topauthor: true
+
+"2021A&A...646A.140H":
+  selected: true
+
+"2021A&A...646A.124H":
+  selected: true
+  topauthor: true
+
+"2020A&A...633A..69H":
+  selected: true
+
+"2019A&A...624A..92K":
+  selected: true
+  topauthor: true
