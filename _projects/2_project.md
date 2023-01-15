@@ -1,7 +1,7 @@
 ---
 layout: page
-title:
-description: Emulating cosmic shear data
+title: Cosmic shear
+description: Shear calibration and parameter inference
 date:   2021-06-13 17:40:57 -0400
 img: assets/img/sims2.jpg
 importance: 2

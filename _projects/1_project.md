@@ -1,7 +1,7 @@
 ---
 layout: page
-title:
-description: Applying metacalibration to Euclid & Roman
+title: Metacalibration
+description: applied to Euclid & Roman
 img: assets/img/metacal_Q.png
 date:   2021-06-13 17:40:57 -0400
 importance: 1
