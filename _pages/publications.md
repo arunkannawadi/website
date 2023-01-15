@@ -8,19 +8,20 @@ nav: true
 nav_order: 4
 ---
 
-I do not think that the impact of one's research, based on publications, can be captured in one or a handful number of parameters.
-However, if you must know, my **h-index** is 21 (according to [Google Scholar]({{ site.scholar_url }}) and [ADS]({{ site.ads_url }}) and I have been cited over 2200 times.
-Three of my papers have over 200 citations and twelve over 50.
-
-
 A lot of my research is collaborative in nature due to the complexity of the projects.
 A complete list of my publications is below and could also be accessed from any of the links below.
 All of my papers are available for free on [arXiv][arxiv_url], which match the published versions.
 
+## Statistics
+
+I do not think that the impact of one's research, based on publications, can be captured in one or a handful number of parameters.
+However, if you must know, my **h-index** is 21 (according to [Google Scholar]({{ site.scholar_url }}) and [ADS]({{ site.ads_url }}) and I have been cited over 2200 times.
+Three of my papers have over 200 citations and twelve over 50.
+
 [arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
 
 <!-- _pages/publications.md -->
-<div class="publications">
+<div class="publications" id="recent">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
