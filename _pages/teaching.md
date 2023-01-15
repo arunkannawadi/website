@@ -9,6 +9,7 @@ nav_order: 5
 
 ### Research supervision
 
+
 - I supervised Paige Cromley and Xander Jenkins, two undergraduate students at Princeton using the [LSSTC Enabling Science Award](https://www.lsstcorporation.org/node/269)
 - I supervised Paul Couzy, an MSc student at Leiden Observatory for his Masters Thesis, for the academic year 2018-2019.
   His thesis involved quantifying the contribution to the bias in the shear estimates due to the azimuthal variations in an otherwise smooth galaxy profile.
@@ -19,6 +20,7 @@ nav_order: 5
 
 
 ### Teaching experience
+
 
 I designed and taught a [mini-course on gravitational lensing](https://sites.google.com/site/astrotwincolo/meetings/2017-5th-meeting?authuser=0) in University of Antioquia, Columbia. The course consisted of 10 hours of lectures and 10 hours of practical exercises, and was aimed at an advanced undergraduate level.
 
@@ -33,6 +35,7 @@ I have been a Teaching Assistant (TA) for some of the undergraduate physics cour
 
 
 ### My teaching principle
+
 
 Most of the science courses today present the currently prevailing scientific theories as facts and focus on the mathematical framework to work out the implications.
 The introduction to a new subject/topic is mainly about throwing some light at the prerequisites.
