@@ -1,80 +1,26 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title:
+description: Emulating cosmic shear data
+date:   2021-06-13 17:40:57 -0400
+img: assets/img/sims2.jpg
 importance: 2
 category: work
+permalink: image-simulations-KiDS
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Galaxy shapes measured from noisy images are noisy and biased, since the shape is a non-linear function of the pixel values. This in turn leads to biased estimates for the weak lensing shear if not corrected for, and is known as noise bias. The precise value of the noise bias depends on the size and the signal-to-noise ratio of the galaxies, and hence are specific to each survey. The magnitude of the noise bias is typically evaluated through image simulations. And because the bias is survey specific, it is critical that the simulations match the data.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+![Plot1]({{ site.base_url }}/images/data2.png){:width="50%"}
+![Plot2]({{ site.base_url }}/images/sims2.png){:width="50%" align="right"}
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We achieve this by taking the intrinsic galaxy properties from HST and simulating them under KiDS observing conditions. The animation on the right shows our emulations of a part of the COSMOS field. This work has highlighted the importance of accurately capturing the joint distributions, such as that of size-ellipticity, failing which the bias estimates can be very different from the true biases. The emulation also has an advantage that the galaxies can be assigned true photometric and spectroscopic redshifts from data, thereby enabling to quantify the impact of bias in tomographic bins due to errors in redshift.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Papers that have out of this project:
+<ol reversed>
+<li> <a href="https://ui.adsabs.harvard.edu/abs/2020A%26A...633A..69H/abstract">KiDS+ VIKING-450: Cosmic shear tomography with optical+ infrared data</a><br>
+H. Hildebrandt, F. Köhlinger, J. L. van den Busch, B. Joachimi, C. Heymans, <b>A. Kannawadi</b>, A. H. Wright, M. Asgari, C. Blake, H. Hoekstra, S. Joudaki, K. Kuijken, L. Miller, C. B. Morrison, T. Tröster, A. Amon, M. Archidiacono, S. Brieden, A. Choi, J. T.A.  de Jong, T. Erben, B. Giblin, A. Mead, J. A. Peacock, M. Radovich, P. Schneider, C. Sifón, M. Tewes (2019), A&A 633, A89</li>
+<li> <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...624A..92K/abstract">Towards emulating cosmic shear data: revisiting the calibration of the shear measurements for the Kilo-Degree Survey</a><br>
+<b>A. Kannawadi</b>, H. Hoekstra, L. Miller, M. Viola, I. Fenech Conti, R. Herbonnet, T. Erben, C. Heymans, H. Hildebrandt, K. Kuijken, M. Vakili, A. H. Wright (2019), A&A 624, A92 </li>
+</ol>
+<hr>
