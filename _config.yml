@@ -104,13 +104,13 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  I am best reached by email. If you have questions or concerns about any of the codes that I work, open a Github Issue.
+  I am best reached by email. If you have questions or concerns about any of the code that I work, open a Github Issue.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: UA-27195938-1 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-QGD0VSK85B # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
