@@ -7,5 +7,6 @@ idna
 pyparsing
 pyyaml
 requests
+scholarly
 soupsieve
 urllib3

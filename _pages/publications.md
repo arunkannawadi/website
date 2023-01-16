@@ -20,8 +20,7 @@ All of my papers are available for free on [arXiv][arxiv_url], which match the p
 ### Statistics
 
 I do not think that the impact of one's research, based on publications, can be captured in one or a handful number of parameters.
-However, if you must know, my **h-index** is 21 (according to [Google Scholar]({{ site.scholar_url }}) and [ADS]({{ site.ads_url }}) and I have been cited over 2200 times.
-Three of my papers have over 200 citations and twelve over 50.
+However, if you must know, my **h-index** is {%- include metrics/gs_h.md -%} with a total citation of {%- include metrics/gs_citedby.md -%} (according to [Google Scholar]({{ site.scholar_url }})). According to [ADS]({{ site.ads_url }}), I have been cited over {%- include metrics/ads_citedby.md -%} times, with an **h-index** of {%- include metrics/ads_h.md -%}.
 
 [arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
 

@@ -9,6 +9,17 @@ import json
 import yaml
 import os
 
+def find_h_index(citations):
+    """Find the h-index of a list of citation counts.
+
+    A binary search could be used to improve performance.
+    This function uses a simple linear search.
+    """
+    citations = sorted(citations, reverse=True)
+    for h, c in enumerate(citations, start=1):
+        if c < h:
+            return h - 1
+
 journal_map = {"aj       " :   "Astronomical Journal                          " ,
 "actaa    " :   "Acta Astronomica                                             " ,
 "araa     " :   "Annual Review of Astron and Astrophys                        " ,
@@ -88,11 +99,13 @@ else:
     customization = {}
 
 # Getting all bibcodes
-encoded_query='q=author:Kannawadi,+A&fl=bibcode&rows=1000&sort=date+desc'
+encoded_query='q=author:Kannawadi,+A&fl=bibcode,citation_count&rows=1000&sort=date+desc'
 r = requests.get('https://api.adsabs.harvard.edu/v1/search/query?'+encoded_query,
                  headers={"Authorization":"Bearer "+api_key,})
 soup = BeautifulSoup(r.content, 'html.parser')
 bibcodes = json.loads(soup.contents[0])['response']['docs']
+citation_count = sum(entry["citation_count"] for entry in bibcodes)
+h_index = find_h_index(entry["citation_count"] for entry in bibcodes)
 bibtex_query = ""
 for entry in bibcodes:
   bibtex_query += '"%s",'%entry['bibcode']
@@ -167,3 +180,9 @@ writer = BibTexWriter()
 writer.order_entries_by = None
 with open('_bibliography/papers.bib', 'w') as bibfile:
   bibfile.write(writer.write(bibtex_database))
+
+with open("_includes/metrics/ads_h.md", "w") as f:
+  f.write(str(h_index))
+
+with open("_includes/metrics/ads_citedby.md", "w") as f:
+  f.write(str(citation_count))
