@@ -10,9 +10,14 @@ nav_order: 4
 
 A lot of my research is collaborative in nature due to the complexity of the projects.
 A complete list of my publications is below and could also be accessed from any of the links below.
-All of my papers are available for free on [arXiv][arxiv_url], which match the published versions.
+All of my papers are available for free on [arXiv][arxiv_url], which match the published versions. They are categorized into four groups:
 
-## Statistics
+- [White papers](#white)
+- [First or second author papers](#firstauthor)
+- [Co-authored papers with significant contribution](#coauthor-major)
+- [Co-authored papers with minor contribution](#coauthor-infra)
+
+### Statistics
 
 I do not think that the impact of one's research, based on publications, can be captured in one or a handful number of parameters.
 However, if you must know, my **h-index** is 21 (according to [Google Scholar]({{ site.scholar_url }}) and [ADS]({{ site.ads_url }}) and I have been cited over 2200 times.
@@ -21,34 +26,36 @@ Three of my papers have over 200 citations and twelve over 50.
 [arxiv_url]: https://arxiv.org/search/?query=kannawadi&searchtype=author&abstracts=show&order=-announced_date_first&size=50
 
 
+
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<section id="white">
+<a name="white">
 <h1>White papers I contributed to</h1>
-</section>
+</a>
 
 {% bibliography -f papers -q @*[custom_keywords=white]* %}
 
-<section id="firstauthor">
+<a name="firstauthor">
 <h1>First or second author papers</h1>
+</a>
 {%- for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}} && custom_keywords=first]* %}
 {% endfor %}
-</section>
 
-<section id="coauthor-major">
+<a name="coauthor-major">
 <h1>Co-authored papers with significant contribution</h1>
-</section>
+</a>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
 {% endfor %}
 
-<section id="coauthor-infra">
+<a name="coauthor-infra">
 <h1>Co-authored papers with minor or infrastructure contributions</h1>
-</section>
+</a>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
