@@ -49,8 +49,10 @@ Three of my papers have over 200 citations and twelve over 50.
 </a>
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
+  {%- if {% bibliography_count -f papers -q @*[year={{y}} && custom_keywords=major]*} }
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
+  {% endif %}
 {% endfor %}
 
 <a name="coauthor-infra">
