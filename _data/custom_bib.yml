@@ -1,62 +1,32 @@
 #---
-#yaml file to customize the auto-generated .bib file
+#yaml file to categorize the auto-generated .bib file
 #---
 
-"2022arXiv220802781B":
-  custom_keywords: "white"
+selected:
+  - "2021MNRAS.502.4048K"
+  - "2021A&A...646A.140H"
+  - "2021A&A...646A.124H"
+  - "2020A&A...633A..69H"
+  - "2019A&A...624A..92K"
 
-"2021MNRAS.502.4048K":
-  selected: "true"
-  custom_keywords: "first"
+first:
+  - "2021MNRAS.502.4048K"
+  - "2021A&A...646A.124H"
+  - "2019A&A...624A..92K"
+  - "2016PASP..128i5001K"
+  - "2016EL....11557005K"
+  - "2015MNRAS.449.3597K"
 
-"2021A&A...646A.140H":
-  selected: "true"
+major:
+  - "2022SPIE12189E..0MG"
+  - "2022arXiv220909253M"
+  - "2022MNRAS.tmp.3141Z"
+  - "2021A&A...654A..76F"
+  - "2021A&A...649A.146R"
+  - "2021A&A...646A.175L"
+  - "2021A&A...645A.105G"
+  - "2021A&A...645A.104A"
+  - "2020A&A...640L..14W"
 
-"2021A&A...646A.124H":
-  selected: "true"
-  custom_keywords: "first"
-
-"2020A&A...633A..69H":
-  selected: "true"
-
-"2019A&A...624A..92K":
-  selected: "true"
-  custom_keywords: "first"
-
-"2016PASP..128i5001K":
-  custom_keywords: "first"
-
-"2016EL....11557005K":
-  custom_keywords: "first"
-
-"2015MNRAS.449.3597K":
-  custom_keywords: "first"
-
-"2022SPIE12189E..0MG":
-  custom_keywords: "major"
-
-"2022arXiv220909253M":
-  custom_keywords: "major"
-
-"2022MNRAS.tmp.3141Z":
-  custom_keywords: "major"
-
-"2021A&A...654A..76F":
-  custom_keywords: "major"
-
-"2021A&A...649A.146R":
-  custom_keywords: "major"
-
-"2021A&A...646A.175L":
-  custom_keywords: "major"
-
-"2021A&A...645A.105G":
-  custom_keywords: "major"
-
-"2021A&A...645A.104A":
-  custom_keywords: "major"
-
-"2020A&A...640L..14W":
-  custom_keywords: "major"
-
-
+white:
+  - "2022arXiv220802781B"
