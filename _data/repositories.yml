@@ -7,3 +7,4 @@ github_repos:
   - lsst-dm/cell_coadds
   - lsst/meas_extensions_gaap
   - lsst/analysis_tools
+  - arunkannawadi/nirwl_metacal
