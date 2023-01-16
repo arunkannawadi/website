@@ -1,0 +1,11 @@
+beautifulsoup4
+bibtexparser
+bs4
+certifi
+charset-normalizer
+idna
+pyparsing
+pyyaml
+requests
+soupsieve
+urllib3
