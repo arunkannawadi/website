@@ -48,11 +48,18 @@ Three of my papers have over 200 citations and twelve over 50.
 <h1>Co-authored papers with significant contribution</h1>
 </a>
 
+% https://github.com/inukshuk/jekyll-scholar/issues/310
+
 {%- for y in page.years %}
-  {%- if {% bibliography_count -f papers -q @*[year={{y}} && custom_keywords=major]*} }
-      <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
+  {%- capture papercount -%}
+    {%- bibliography_count -f papers -q @*[year={{y}} && custom_keywords=major]* -%}
+  {%- endcapture -%}
+
+  {%- if {{papercount}} != "0"  %}
+    <h2 class="year">{{y}}</h2>
+    {% bibliography -f papers -q @*[year={{y}} && custom_keywords=major]* %}
   {% endif %}
+
 {% endfor %}
 
 <a name="coauthor-infra">
@@ -60,8 +67,14 @@ Three of my papers have over 200 citations and twelve over 50.
 </a>
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}} && custom_keywords!=major && custom_keywords!=first && custom_keywords!=white]* %}
+  {%- capture papercount -%}
+    {%- bibliography_count -f papers -q @*[year={{y}} && custom_keywords!=major && custom_keywords!=first && custom_keywords!=white]* -%}
+  {%- endcapture -%}
+
+  {%- if {{papercount}} != "0"  %}
+    <h2 class="year">{{y}}</h2>
+    {% bibliography -f papers -q @*[year={{y}} && custom_keywords!=major && custom_keywords!=first && custom_keywords!=white]* %}
+  {% endif %}
 {% endfor %}
 
 </div>
