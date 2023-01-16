@@ -25,7 +25,6 @@ nav_order: 5
 I designed and taught a [mini-course on gravitational lensing](https://sites.google.com/site/astrotwincolo/meetings/2017-5th-meeting?authuser=0) in University of Antioquia, Columbia. The course consisted of 10 hours of lectures and 10 hours of practical exercises, and was aimed at an advanced undergraduate level.
 
 I have been a Teaching Assistant (TA) for some of the undergraduate physics courses at CMU:
-			<a href="#" class="image right"><img src="assets/imgs/teaching.jpg" alt="" /></a>
 
 1. Physics-II for Science students (33-112, Fall 2012)
 2. SAMS - Electronics (Summer-2, 2012)
@@ -33,6 +32,8 @@ I have been a Teaching Assistant (TA) for some of the undergraduate physics cour
 4. Matter and Interactions-II (33-132, Spring 2012)
 5. Physics-II for Science students (33-112, Fall 2011)
 
+
+<a href="#" class="image right"><img src="/assets/img/teaching.jpg" alt="" /></a>
 
 ### My teaching principle
 

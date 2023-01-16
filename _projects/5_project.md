@@ -19,6 +19,6 @@ The rationale behind this choice over the classic Kaiser-Squires inversion techn
 The algorithm is based on mesh-free free-form lensing reconstruction and has been shown on simulations to recover the true mass distribution.
 An added advantage of this method is that it combines strong lensing features, such as arcs or multiple images whenever available. This work is at its infancy stage.
 <figcaption> <center> <font size=3>Image credits: Clowe et al., (2006) </font></center> </figcaption>
-![Bullet cluster](/images/massmap2.png){:width="100%"}
+![Bullet cluster](/assets/img/massmap2.png){:width="100%"}
 
 <hr>
