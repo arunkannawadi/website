@@ -8,7 +8,7 @@ on:
     - '_data/custom_bib.yml'
     - '.github/workflows/update_publications.yml'
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 10 * * 1'  # at 10am every Monday
 
 jobs:
   update-publication-list:
